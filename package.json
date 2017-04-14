@@ -1,6 +1,6 @@
 {
   "name": "feather2-lang-packager-map",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "多模块map",
   "main": "index.js",
   "scripts": {

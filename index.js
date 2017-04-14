@@ -20,7 +20,9 @@ module.exports = function(ret, conf, setting, opt){
         };
 
         feather.util.map(ret.src, function(subpath, file){
-            content.map[file.id] = file.extras;
+            if(file.release){
+                content.map[file.id] = file.extras;
+            }
         });
     }else{
         var content = feather.releaseInfo;
