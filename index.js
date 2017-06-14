@@ -12,7 +12,8 @@ module.exports = function(ret, conf, setting, opt){
                     domain: feather.config.get('project.domain', '')
                 },
                 statics: feather.config.get('statics'),
-                autoPack: feather.config.get('autoPack')
+                autoPack: feather.config.get('autoPack'),
+                require: feather.config.get('require')
             },
             components: feather.releaseInfo.components,
             map: {},
